@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-04 18:48:42 by Eclipse SUMO netedit Version 1.22.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Main detectors -->
+    <laneAreaDetector id="1C_0" lane="1C_0" pos="160" length="30.00" period="300.00" file="e2_1_0_a.xml"/>
+    <laneAreaDetector id="1C_1" lane="1C_1" pos="160" length="30.00" period="300.00" file="e2_1_1_a.xml"/>
+    <laneAreaDetector id="2C_0" lane="2C_0" pos="160" length="30.00" period="300.00" file="e2_2_0_a.xml"/>
+    <laneAreaDetector id="2C_1" lane="2C_1" pos="160" length="30.00" period="300.00" file="e2_2_1_a.xml"/>
+    <laneAreaDetector id="3C_0" lane="3C_0" pos="160" length="30.00" period="300.00" file="e2_3_0_a.xml"/>
+    <laneAreaDetector id="3C_1" lane="3C_1" pos="160" length="30.00" period="300.00" file="e2_3_1_a.xml"/>
+    <laneAreaDetector id="4C_0" lane="4C_0" pos="160" length="30.00" period="300.00" file="e2_4_0_a.xml"/>
+    <laneAreaDetector id="4C_1" lane="4C_1" pos="160" length="30.00" period="300.00" file="e2_4_1_a.xml"/>
+
+    <route id="0" edges="1C C1"/>
+    <route id="1" edges="1C C2"/>
+    <route id="2" edges="1C C3"/>
+    <route id="3" edges="1C C4"/>
+    <route id="4" edges="2C C1"/>
+    <route id="5" edges="2C C2"/>
+    <route id="6" edges="2C C3"/>
+    <route id="7" edges="2C C4"/>
+    <route id="8" edges="3C C1"/>
+    <route id="9" edges="3C C2"/>
+    <route id="10" edges="3C C3"/>
+    <route id="11" edges="3C C4"/>
+    <route id="12" edges="4C C1"/>
+    <route id="13" edges="4C C2"/>
+    <route id="14" edges="4C C3"/>
+    <route id="15" edges="4C C4"/>
+
+    <taz id="1" shape="-263.00,21.83 -222.42,25.43 -219.34,-24.40 -283.03,-39.30 -302.55,-9.50 -285.60,11.56 -263.00,21.83" color="blue">
+        <tazSource id="1C" weight="1.00"/>
+        <tazSink id="C1" weight="1.00"/>
+        <tazSink id="C2" weight="4.00"/>
+        <tazSink id="C3" weight="4.00"/>
+        <tazSink id="C4" weight="4.00"/>
+    </taz>
+    <taz id="2" shape="-263.00,21.83 -222.42,25.43 -219.34,-24.40 -283.03,-39.30 -302.55,-9.50 -285.60,11.56 -263.00,21.83" color="blue">
+        <tazSource id="2C" weight="1.00"/>
+        <tazSink id="C2" weight="1.00"/>
+        <tazSink id="C1" weight="4.00"/>
+        <tazSink id="C3" weight="4.00"/>
+        <tazSink id="C4" weight="4.00"/>
+    </taz>
+    <taz id="3" shape="-263.00,21.83 -222.42,25.43 -219.34,-24.40 -283.03,-39.30 -302.55,-9.50 -285.60,11.56 -263.00,21.83" color="blue">
+        <tazSource id="3C" weight="1.00"/>
+        <tazSink id="C3" weight="1.00"/>
+        <tazSink id="C1" weight="4.00"/>
+        <tazSink id="C2" weight="4.00"/>
+        <tazSink id="C4" weight="4.00"/>
+    </taz>
+    <taz id="4" shape="-263.00,21.83 -222.42,25.43 -219.34,-24.40 -283.03,-39.30 -302.55,-9.50 -285.60,11.56 -263.00,21.83" color="blue">
+        <tazSource id="4C" weight="1.00"/>
+        <tazSink id="C4" weight="1.00"/>
+        <tazSink id="C1" weight="4.00"/>
+        <tazSink id="C2" weight="4.00"/>
+        <tazSink id="C3" weight="4.00"/>
+    </taz>
+</additional>

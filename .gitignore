@@ -1,0 +1,6 @@
+paper/*
+4lane/*rou.xml
+4lane/*.png
+4lane/e2_*.xml
+
+.venv/
