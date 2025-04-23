@@ -30,8 +30,11 @@ python3 sotl_opt.py
 
 Here is a demo video of the simulation for SOTL:
 
-![SOTL Demo](res/sotl_demo.mp4 "SOTL Demo")
+<center>
 
+![SOTL Demo](res/sotl_demo.gif "SOTL Demo")
+
+</center>
 
 # Reinforcement Learning
 
