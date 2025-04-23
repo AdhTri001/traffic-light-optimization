@@ -1,6 +1,11 @@
 paper/*
-4lane/*rou.xml
-4lane/*.png
-4lane/e2_*.xml
+
+sotl_network/*rou.xml
+sotl_network/*.png
+sotl_network/e2_*.xml
+
+rl_network/*.png
+rl_network/e2_*.xml
+rl_network/Node*.xml
 
 .venv/

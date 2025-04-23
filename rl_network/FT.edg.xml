@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-10 23:16:35 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\adity\Downloads\AO Project\FT.sumocfg"/>
+        <additional-files value="C:\Users\adity\Downloads\Project1.add.xml"/>
+        <route-files value="C:\Users\adity\Downloads\Project1.rou.xml"/>
+        <sumo-net-file value="C:\Users\adity\Downloads\AO Project\FT.net.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<edges version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-E2" from="Node6" to="Node3" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="-E3" from="Node5" to="Node6" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="-E8" from="Node4" to="Node1" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="-E9" from="Node5" to="Node4" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="E2" from="Node3" to="Node6" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="E3" from="Node6" to="Node5" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="E8" from="Node1" to="Node4" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="E9" from="Node4" to="Node5" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node1_2_EB" from="Node1" to="Node2" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node1_2_WB" from="Node2" to="Node1" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_3_EB" from="Node2" to="Node3" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_3_WB" from="Node3" to="Node2" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_5_NB" from="Node5" to="Node2" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_5_SB" from="Node2" to="Node5" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_7_NB" from="Node2" to="Node7" priority="-1" numLanes="3" speed="13.89"/>
+    <edge id="Node2_7_SB" from="Node7" to="Node2" priority="-1" numLanes="3" speed="13.89"/>
+</edges>

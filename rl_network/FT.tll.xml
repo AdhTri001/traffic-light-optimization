@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-10 23:16:35 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\adity\Downloads\AO Project\FT.sumocfg"/>
+        <additional-files value="C:\Users\adity\Downloads\Project1.add.xml"/>
+        <route-files value="C:\Users\adity\Downloads\Project1.rou.xml"/>
+        <sumo-net-file value="C:\Users\adity\Downloads\AO Project\FT.net.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<tlLogics version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <tlLogic id="Node2" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGGGGGGrrrrrrr"/>
+        <phase duration="3"  state="yyyyyyyyrrrrrrr"/>
+        <phase duration="42" state="GGGrrrrrGGGGGGG"/>
+        <phase duration="3"  state="yyyrrrrryyyyyyy"/>
+    </tlLogic>
+
+    <connection from="Node2_3_WB" to="Node2_7_NB" fromLane="0" toLane="0" tl="Node2" linkIndex="0"/>
+    <connection from="Node2_3_WB" to="Node2_7_NB" fromLane="0" toLane="1" tl="Node2" linkIndex="1"/>
+    <connection from="Node2_3_WB" to="Node2_7_NB" fromLane="0" toLane="2" tl="Node2" linkIndex="2"/>
+    <connection from="Node2_3_WB" to="Node1_2_WB" fromLane="0" toLane="0" tl="Node2" linkIndex="3"/>
+    <connection from="Node2_3_WB" to="Node1_2_WB" fromLane="1" toLane="1" tl="Node2" linkIndex="4"/>
+    <connection from="Node2_3_WB" to="Node1_2_WB" fromLane="2" toLane="2" tl="Node2" linkIndex="5"/>
+    <connection from="Node2_3_WB" to="Node2_5_SB" fromLane="2" toLane="1" tl="Node2" linkIndex="6"/>
+    <connection from="Node2_3_WB" to="Node2_5_SB" fromLane="2" toLane="2" tl="Node2" linkIndex="7"/>
+    <connection from="Node2_7_SB" to="Node1_2_WB" fromLane="0" toLane="0" tl="Node2" linkIndex="8"/>
+    <connection from="Node2_7_SB" to="Node2_5_SB" fromLane="0" toLane="0" tl="Node2" linkIndex="9"/>
+    <connection from="Node2_7_SB" to="Node2_5_SB" fromLane="1" toLane="1" tl="Node2" linkIndex="10"/>
+    <connection from="Node2_7_SB" to="Node2_5_SB" fromLane="2" toLane="2" tl="Node2" linkIndex="11"/>
+    <connection from="Node2_7_SB" to="Node2_3_EB" fromLane="2" toLane="0" tl="Node2" linkIndex="12"/>
+    <connection from="Node2_7_SB" to="Node2_3_EB" fromLane="2" toLane="1" tl="Node2" linkIndex="13"/>
+    <connection from="Node2_7_SB" to="Node2_3_EB" fromLane="2" toLane="2" tl="Node2" linkIndex="14"/>
+</tlLogics>

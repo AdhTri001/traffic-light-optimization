@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-04-10 23:16:35 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\Users\adity\Downloads\AO Project\FT.sumocfg"/>
+        <additional-files value="C:\Users\adity\Downloads\Project1.add.xml"/>
+        <route-files value="C:\Users\adity\Downloads\Project1.rou.xml"/>
+        <sumo-net-file value="C:\Users\adity\Downloads\AO Project\FT.net.xml"/>
+    </input>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<nodes version="1.16" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="-50.88,-67.33,216.40,171.36" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <node id="Node1" x="-50.86" y="53.74" type="priority"/>
+    <node id="Node2" x="65.17" y="53.74" type="traffic_light" tl="Node2"/>
+    <node id="Node3" x="216.40" y="53.54" type="priority"/>
+    <node id="Node4" x="-50.88" y="-67.33" type="priority"/>
+    <node id="Node5" x="66.59" y="-66.95" type="priority"/>
+    <node id="Node6" x="216.35" y="-66.83" type="priority"/>
+    <node id="Node7" x="64.15" y="171.36" type="dead_end"/>
+</nodes>

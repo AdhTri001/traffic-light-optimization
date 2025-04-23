@@ -99,8 +99,8 @@ for itr in range(1, 5):
 
     sumo_config = [
         'sumo-gui',
-        '-c', '4lane/4lane.sumocfg',
-        '-r', f'4lane/4lane_{itr}.rou.xml',
+        '-c', 'sotl_network/4lane.sumocfg',
+        '-r', f'sotl_network/4lane_{itr}.rou.xml',
         '--step-length', str(TIME_STEP),
         '--delay', '0',
         '--lateral-resolution', '0'
@@ -136,7 +136,7 @@ for itr in range(1, 5):
     # Yellow time
     p_y = 3
     # Minimum cars to wait for before green light
-    theta = 1
+    theta = 2
     # Requests for green light for a junction
     requests = defaultdict(Queue)
 
@@ -160,7 +160,8 @@ for itr in range(1, 5):
         for j in junctions:
             control_tl(j)
 
-        # For plotting
+        # Compute the average waiting time for the last 10 minutes
+        # and reset the waiting time history and number of vehicles
         if update_time >= 600:
             wt = sum(wt_history) / num_vehicles
             atwt.append(wt)
