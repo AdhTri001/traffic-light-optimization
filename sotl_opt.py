@@ -55,14 +55,10 @@ def control_tl(tls_id):
     global wt_history, atwt, num_vehicles
 
     lanes = get_in_lanes(tls_id)
-    # print("hey1", end=" ")
     edges = list(set([traci.lane.getEdgeID(lane) for lane in lanes]))
-    # print("hey2", end=" ")
     cur_phase = get_current_phase(tls_id)
-    # print("hey3", end=" ")
 
     for edge in edges:
-        # print(edge, end=" ")
         g = edge_green_state[edge]
         pi[edge] += TIME_STEP
 
@@ -98,7 +94,7 @@ pmins = [5, 6, 12, 44]
 for itr in range(1, 5):
 
     sumo_config = [
-        'sumo-gui',
+        'sumo',
         '-c', 'sotl_network/4lane.sumocfg',
         '-r', f'sotl_network/4lane_{itr}.rou.xml',
         '--step-length', str(TIME_STEP),
